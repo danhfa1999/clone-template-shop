@@ -483,7 +483,7 @@ align-items:center;
 }
 .suggest__body{
    width:1200px;
-   height:2400px;
+   height:900px;
    background-color:#f5f5f5;
 }
 .suggest__body-item{
@@ -544,6 +544,21 @@ align-items:center;
   border-bottom-right-radius: 3px;
   background-color:#ff440c;
 
+}
+.suggest__body-end{
+   padding-top:40px;
+   display:flex;
+   justify-content: center;
+   margin:0;
+}
+.suggest__body-end-btn{
+   color:#ff440c;
+   font-size:16px;
+   border-radius:3px;
+   outline: none;
+   padding:5px 200px;
+   background-color:#fff;
+   margin:0;
 }
 
 /* Footer */
