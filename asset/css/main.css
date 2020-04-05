@@ -30,7 +30,7 @@ html {
 }
 
 .header{
-   background:#189EFF;
+   background:var(--all-color);
    height: var(--navbar-header);
 }
 .header__navbar{
@@ -240,7 +240,7 @@ background-color: var(--white-color);
 .auth-form__switch-btn {
    font-size:1.6rem;
    font-weight: 400;
-   color:var(--blue-color);
+   color:var(--all-color);
    cursor:pointer;
 }
 
@@ -278,7 +278,7 @@ background-color: var(--white-color);
    border-left:1px solid #EAEAEA;
 }
 .auth-form__help--forgot{
-   color:var(--blue-color);
+   color:var(--all-color);
 }
 .auth-form__text {
    font-size:1.2rem;
@@ -287,7 +287,7 @@ background-color: var(--white-color);
    padding:0 12px;
 }
 .auth-form__text-link {
-   color:var(--blue-color);
+   color:var(--all-color);
    text-decoration: none;
 }
 .auth-form__controls {
@@ -374,7 +374,7 @@ background-color: var(--white-color);
    margin:10px;
 }
 .header__search-btn{
-   background-color:var(--blue-color);
+   background-color:var(--all-color);
    border:none;
    height:34px;
    border-radius:3px;
@@ -458,6 +458,10 @@ background-color: var(--white-color);
 }
 
 /* Suggest Today list Item */
+.suggest-control{
+   width:100%;
+   border-bottom: 5px solid var(--all-color);
+}
 .suggest{
    width: 1200px;
    max-width: 100%;
@@ -476,10 +480,10 @@ align-items:center;
  width:210px;
 }
 .suggest__header-content-item{
-  color:#ff440c;
+  color:var(--all-color);
   font-size:20px;
   padding-bottom:10px;
-  border-bottom:3px solid #ff440c;
+  border-bottom:3px solid var(--all-color);
 }
 .suggest__body{
    width:1200px;
@@ -505,7 +509,7 @@ align-items:center;
   justify-content:space-between;
 }
 .suggest__body-total-item{
-  color:#ff440c;
+  color:var(--all-color);
 }
 .suggest__body-total-done{
   font-size:12px;
@@ -513,7 +517,7 @@ align-items:center;
 }
 .suggest__body-listitem-e:hover
 {
-   border:1px solid #ff440c;
+   border:1px solid var(--all-color);
 }
 .suggest__body-listitem{
    background-color:#f5f5f5;
@@ -532,7 +536,7 @@ align-items:center;
    position:relative;
 }
 .suggest__body-listitem-e:hover:after{
-  border:1px solid #ff440c;
+  border:1px solid var(--all-color);
   content:"Tìm sản phẩm tương tự";
   display:block;
   text-align:center;
@@ -542,7 +546,7 @@ align-items:center;
   height:26px;
   border-bottom-left-radius:3px;
   border-bottom-right-radius: 3px;
-  background-color:#ff440c;
+  background-color:var(--all-color);
 
 }
 .suggest__body-end{
@@ -552,7 +556,7 @@ align-items:center;
    margin:0;
 }
 .suggest__body-end-btn{
-   color:#ff440c;
+   color:var(--all-color);
    font-size:16px;
    border-radius:3px;
    outline: none;
@@ -589,9 +593,11 @@ align-items:center;
 .footer__body{
    height:500px;
    width:100%;
+   margin-top:50px;
    display: flex;
    justify-content: space-around;
    padding:200px;
+   border-top: 5px solid var(--all-color);
 }
 .footer__body-logo{
    text-align: center;

@@ -1,5 +1,5 @@
 :root {
-   --blue-color:#189EFF;
+   --all-color:#00bdaa;
    --white-color:#fff;
    --black-color:#000;
    --text-color:#333;
@@ -98,7 +98,7 @@ html {
    background-color:rgba(0,0,0,0.4);
 }
 .btn.btn--blue{
-   background-color:var(--blue-color);
+   background-color:var(--all-color);
    color:var(--white-color)
 }
 
