@@ -30,7 +30,7 @@ html {
 }
 
 .header{
-   background:var(--all-color);
+   background: radial-gradient(circle, rgba(255,56,56,0.9979342078628326) 0%, rgba(255,136,96,1) 40%, rgba(255,255,157,1) 100%);
    height: var(--navbar-header);
 }
 .header__navbar{
