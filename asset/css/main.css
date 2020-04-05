@@ -485,11 +485,10 @@ align-items:center;
    width:1200px;
    height:2400px;
    background-color:#f5f5f5;
-   position:relative;
 }
 .suggest__body-item{
   height:245px;
-  width:200px;
+  width:198px;
   display:flex;
   flex-direction:column;
   padding:5px;
@@ -512,24 +511,40 @@ align-items:center;
   font-size:12px;
   color:#738273;
 }
-.suggest__body-item:hover
+.suggest__body-listitem-e:hover
 {
    border:1px solid #ff440c;
 }
-.suggest__body-item:hover:after{
+.suggest__body-listitem{
+   background-color:#f5f5f5;
+   display:flex;
+   flex-wrap:wrap;
+   margin:0;
+   padding:0;
+
+}
+.suggest__body-listitem-e{
+   display:block;
+   width:200px;
+   list-style: none;
+   padding:0;
+   margin:0;
+   position:relative;
+}
+.suggest__body-listitem-e:hover:after{
   border:1px solid #ff440c;
   content:"Tìm sản phẩm tương tự";
   display:block;
   text-align:center;
   padding-top:2px;
-  width:190px;
+  width:198px;
   color:#fff;
   height:26px;
-  border-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius: 3px;
   background-color:#ff440c;
-  margin-right:10px;
-}
 
+}
 
 /* Footer */
 
