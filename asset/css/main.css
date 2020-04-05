@@ -791,3 +791,263 @@ align-items:center;
    font-size: 10px;
    color:var(--white-color)
 }
+
+/* Demo */
+.full-home-banner-wrapper {
+	width: 1200px;
+	height: 353px;
+	max-width: 100%;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	margin: 10px auto;
+}
+
+.container {
+	width: 1200px;
+	height: 235px;
+	margin: 0 auto;
+}
+
+.full-home-banner {
+	display: flex;
+	flex-direction: row;
+}
+
+.full-home-banner__main-banner {
+	flex-basis: 796.66px;
+}
+
+.full-home-banner__main-banner img {
+	width: 796.66px;
+	height: 235px;
+}
+
+.full-home-banner__right-wrapper {
+	margin-left: 5px;
+}
+
+.full-home-banner__right-wrapper img {
+	width: 398.34px;
+	height: 115px;
+}
+
+.full-home-banner__options {
+	height: 108px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.full-home-banner__options a {
+	text-decoration: none;
+
+}
+ 
+.full-home-banner__options-option img {
+	width: 45px;
+	height: 45px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.full-home-banner__options-option {
+	width: 100px;
+	height: 80.2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.option-title {
+	text-align: center;
+	font-size: 13px;
+	color: #000;
+	margin: 0 0 8px;
+}
+.full-home-banner__options {
+	display: flex;
+}
+
+.welcome-package-banner img {
+	width: 1200px;
+	height: 110px;
+}
+
+.welcome-package-banner {
+	width: 1200px;
+	height: 110px;
+	margin: 20px auto;
+	display: flex;
+}
+
+.shopee-header-section__header {
+	margin: 20px auto;
+	width: 1200px;
+	height: 61px;
+	display: flex;
+	align-items: center;
+	background-color: #FFF;
+}
+
+.shopee-header-section__header-link {
+	width: 102px;
+}
+
+.shopee-header-section_header__title {
+	flex-grow: 1;
+	margin-left: 20px;
+	margin-top:  10px;
+}
+
+.flash-sale-header-with-countdown-timer {
+	display: flex;
+}
+
+.flash-sale-header-timer__count {
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+}
+
+.flash-sale-header-timer {
+	display: flex;
+}
+
+.shopee-button-no-outline {
+	color: var(--all-color);
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.shopee-header-section__header a {
+    text-decoration: none!important;
+    color: var(--all-color);
+}
+
+.shopee-header-section__header__title {
+	font-size: 15px;
+}
+
+.shopee-header-section__content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.image-carousel__item-list {
+	list-style: none;
+}
+
+.image-carousel__item {
+	width: 173px;
+	height: 173px;
+}
+
+.flash-sale-item-card-link {
+	text-decoration: none;
+}
+
+.flash-sale-item-card__image {
+	width: 173px;
+	height: 173px;
+	background-image: url("img/list-1.jfif");
+	background-size: contain;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image-carousel__item-list-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-carousel__item-list {
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.flash-sale-item-card__lower-wrapper {
+	    width: 173px;
+    padding: 5px 0px;
+    color: var(--all-color);
+}
+
+.flash-sale-item-card__lower {
+	text-align: center;
+	font-size: 25px;
+}
+
+.flash-sale-progress-bar__wrapper {
+
+    text-align: center;
+    color: #FFF;
+    background-color: var(--all-color);
+    border-radius: 10px;
+
+}
+
+.flash-sale__sale-percent {
+	display: flex;
+	flex-direction: column;
+	width: 45px;
+	height: 45px;
+	background-color: yellow;
+}
+
+.flash-sale__percent {
+	color: var(--all-color);
+	text-align: center;
+	font-weight: bold;
+}
+
+.flash-sale__sale {
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.shopee-header-section__content {
+	background-color:#f5f5f5;
+	padding: 10px 10px;
+	border: 1px solid #ddd;
+}
+
+.skinny-banner {
+	width: 1200px;
+	height: 110px;
+	display: flex;
+	margin: 20px auto;
+}
+
+.skinny-banner .skinny {
+	width: 400px;
+	height: 110px;
+}
+
+.skinny-banner__one {
+	background-image: url(img/skinny-banner1.jfif);
+	background-size: contain;
+}
+
+.skinny-banner__two {
+	background-image: url(img/skinny-banner3.jfif);
+}
+.skinny-banner__three {
+	background-image: url(img/skinny-banner2.jfif);
+}
+
+
+
