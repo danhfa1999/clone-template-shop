@@ -28,9 +28,13 @@ html {
    display: flex;
    flex-wrap: wrap;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
 .header{
-   background: radial-gradient(circle, rgba(255,56,56,0.9979342078628326) 0%, rgba(255,136,96,1) 40%, rgba(255,255,157,1) 100%);
+   background: #108dc7;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to bottom, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to bottom, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+   font-family: 'Cormorant', serif;
    height: var(--navbar-header);
 }
 .header__navbar{
@@ -773,6 +777,7 @@ align-items:center;
    display: block;
 }
 .footer__end{
+   font-family: 'Cormorant', serif;
    padding:100px;
    height:300px;
    width:100%;
